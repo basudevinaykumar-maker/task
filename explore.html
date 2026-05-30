@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<nav class="nav-bg">
+    <div class="container d-flex justify-content-between align-items-center">
+        <h2 class="navbar-brand">MOS</h2>
+        <ul class="nav-center">
+            <li><a class="nav-link" href="main-page.html">Home</a></li>
+            <li><a class="nav-link" href="explore.html" onclick="goToAbout()">About</a></li>
+            <li><a class="nav-link" href="detaction.html">Detection</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="section_causes">
+        <div class="background main">
+            <div class="container">
+                <div class="mains background">
+
+                    <h1 class="head text-center">What are oil spills and where do they come from?</h1>
+                    <hr class="hr mx-auto">
+                    <div class="all_block">
+                        <h4 class="text-primary">1. What are Oil Spills? (Detailed Explanation)</h4>
+                        <ul class="li list-unstyled">
+                            <li class="mb-3">
+                                An oil spill is the release of liquid petroleum into the environment, especially into oceans, seas, or rivers. Oil spills usually happen because of accidents or human mistakes during oil production, storage, or transportation.
+                            </li>
+
+                            <li class="mb-3">
+                                When oil spreads on water, it forms a thin layer on the surface. This layer blocks sunlight and oxygen, which harms marine plants and animals. Oil sticks to birds' feathers and animals' skin, making it difficult for them to survive.
+                            </li>
+                            <li class="mb-3">Oil spills are very dangerous because they take many years to fully clean and recover.</li>
+
+                        </ul>
+                    </div>
+                    <div class="all_block">
+                        <h4 class="text-primary">2. Where Do Oil Spills Come From?</h4>
+                        <p class="mb-4">Oil spills come from many different sources. The main sources are explained below.</p>
+                        <ol class="list-unstyled">
+                            <li class="mb-4">
+                                <h5 class="text-warning">Oil Tanker Accidents</h5>
+                                <ul class="list-unstyled ml-3">
+                                    <li class="mb-2">Large ships called oil tankers transport oil across oceans. If a tanker crashes, leaks, or sinks, a huge amount of oil can spill into the sea.</li>
+                                    <li class="mb-2"><strong>Torrey Canyon (1967):</strong> On 18 March, 1967 the Torrey Canyon struck Pollard's Rock in the Seven Stones reef between the Scilly Isles and Land's End, England. The oil leaked from the ship (31,000,000 gallons) and spread along the sea between England and France, killing marine life and blighting the region for many years thereafter.</li>
+                                    <li class="mb-2"><strong>Othello (1970):</strong> On 20 March 1970 at least 438,000 barrels of oil spilled in a collision involving the Othello in Tralhavet Bay, Sweden. <a class="col" href="https://assets.wwf.org.uk/downloads/tankerincidents.pdf" target="_blank">FOR MORE</a></li>
+                                </ul>
+                                <div class="consol mt-3">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="http://images.theconversation.com/files/203774/original/file-20180129-100896-npfzmv.jpg?auto=format&fit=clip&ixlib=rb-4.1.0&q=45&w=754" class="d-block carousel-IMG" alt="Oil spill from tanker">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://www.esri.com/about/newsroom/app/uploads/2018/11/0414-feature4.jpg" class="d-block carousel-IMG" alt="Oil tanker">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://gcaptain.com/wp-content/uploads/2009/02/chemical-tanker-kashmir-on-fire.jpg" class="d-block carousel-IMG" alt="Burning tanker">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-4">
+                                <h5 class="text-warning">Offshore Oil Drilling</h5>
+                                <ul class="list-unstyled ml-3">
+                                    <li class="mb-2">Oil is drilled from beneath the ocean floor using offshore platforms. If there is a technical failure or explosion, oil can leak continuously into the sea.</li>
+                                    <li class="mb-2">Around 1891, the first submerged oil wells were drilled from platforms built on piles in the fresh waters of the Grand Lake St. Marys in Ohio. The wells were developed by small local companies such as Bryson, Riley Oil, German-American and Banker's Oil.</li>
+                                    <li class="mb-2">Offshore drilling is risky business. It can have devastating impacts on oceans and coastal communities. It's also expensive. But fossil fuel companies are willing to pay the price to access the potentially large reserves under the seafloor.</li>
+                                    <li class="mb-2"><strong>Deepwater Horizon (2010):</strong> Big oil spills are big killers of wildlife and can cause long-lasting damage to marine ecosystems. Just think of BP's Deepwater Horizon spill in the Gulf of Mexico. The 2010 incident spread oil across 68,000 square miles of sea surface and killed approximately 1 million seabirds, 5,000 marine mammals and 1,000 sea turtles.</li>
+                                    <li class="mb-2">The opportunity to submit public comments on the five-year program empowers coastal communities and others to collectively say loudly and clearly that we do not want more offshore oil and gas drilling. After the next leasing program is finalized, it will likely replace part of the existing Biden program, which was intended to run through 2029.</li>
+                                </ul>
+                                <div class="consol mt-3">
+                                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://ca-times.brightspotcdn.com/dims4/default/c012993/2147483647/strip/true/crop/2048x1369%2B0%2B0/resize/1200x802%21/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F07%2F5a%2F6b48bcec70a4fa4b44028650ce57%2Fla-159044-mn-0604-spill-2-cmc-jpg-20150419" class="d-block carousel-IMG" alt="Oil spill cleanup">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://www.wilderness.org/sites/default/files/styles/1000xy_webp/public/media/image/Turtle_Rescue_and_Rehabilitation%20%281%29.jpg.webp?itok=hBd_Ub5_" class="d-block carousel-IMG" alt="Turtle rescue">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://oceana.org/wp-content/uploads/sites/18/IMG_20220119_100239-1536x1152.jpg" class="d-block carousel-IMG" alt="Oil rig">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-4">
+                                <h5 class="text-warning">Pipeline Leaks</h5>
+                                <ul class="list-unstyled ml-3">
+                                    <li class="mb-2">Pipelines carry oil from one place to another. Old or damaged pipelines can break and release oil into soil, rivers, or oceans.</li>
+                                    <li class="mb-2">Pipeline effects on the environment are a serious concern for many governments, businesses, and homeowners. Yet many still don't realize the significant negative effects the construction and placement of pipelines can have on surrounding environments, ecosystems, and habitats.</li>
+                                    <li class="mb-2"><strong>Huntington Beach Pipeline (2021):</strong> Late on the evening of October 1, 2021, the San Pedro Bay Pipeline (Pipeline P00547) broke and spilled crude oil into the waters 4.5 miles offshore of Huntington Beach, California. Inspection of the pipeline indicated that the failure may have been caused by an anchor that hooked the pipeline, causing a partial tear.</li>
+                                    <li class="mb-2">Over the course of the incident, an estimated 24,500 gallons of oil were spilled. Responders worked to recover and collect oil on the water and on shore. At the peak of the response over 1,800 personnel worked to assess, cleanup, and manage the incident.</li>
+                                </ul>
+                                <div class="consol mt-3">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://insideclimatenews.org/wp-content/uploads/2017/04/BelugaWhales2GettyImages.jpg" class="d-block carousel-IMG" alt="Affected wildlife">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://www.marineinsight.com/wp-content/uploads/2021/01/Atlantic-Empress.png.webp" class="d-block carousel-IMG" alt="Pipeline infrastructure">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://static.scientificamerican.com/sciam/cache/file/3B6B2987-DA3D-4815-8D3E27F58175208F_source.jpg?w=1200" class="d-block carousel-IMG" alt="Oil pipeline">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-4">
+                                <h5 class="text-warning">Human Errors and Illegal Activities</h5>
+                                <ul class="list-unstyled ml-3">
+                                    <li class="mb-2">Oil spills can also happen because of poor maintenance, illegal oil dumping, or mistakes during loading and unloading oil from ships.</li>
+                                    <li class="mb-2"><strong class="text-info">Poor Maintenance:</strong> Aging or poorly maintained vessels can experience structural failures, such as hull breaches or pipeline failures. Pipelines and storage tanks can corrode over time, leading to cracks, leaks, or failures in valves and pumps.</li>
+                                    <li class="mb-2"><strong class="text-info">Illegal Oil Dumping:</strong> This is a major source of pollution, with an estimated 70–210 million gallons of waste oil illegally dumped at sea annually. Ships may use "magic pipes" or bypass separators to intentionally discharge oily bilge water and sludge to save on disposal costs.</li>
+                                    <li class="mb-2"><strong class="text-info">Loading/Unloading Mistakes:</strong> Human error and operational mistakes during the transfer of oil between vessels or between vessels and storage facilities are a common cause of spills. These often occur at the manifold area due to incorrect gauge installation, improper hose handling, or vessel position shifts.</li>
+                                    <li class="mb-2"><strong class="text-info">Operational Discharges:</strong> These frequent, often smaller, spills from vessels (such as bilge water discharge) account for roughly 21% of all oil released from vessels.</li>
+                                    <li class="mb-2"><strong class="text-info">Consequences:</strong> Such spills often occur in sensitive environments like bays, marinas, and near coastlines, which can cause significant damage to local ecosystems.</li>
+                                    <li class="mb-2"><strong class="text-info">Regulation:</strong> These acts are prohibited by the international MARPOL convention.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
+                <div class="text-center mt-4"><a href="main-page.html"><button class="btn btn-primary btn-lg">BACK</button></a></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="fut"> &copy; 2025 Marine oil spill. All rights reserved| Privacy Policy | Site Map. </footer>
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>

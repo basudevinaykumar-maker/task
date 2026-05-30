@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marine Oil Spill Research</title>
+
+<link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0b1e2d;
+color:#eaf2f8;
+line-height:1.6;
+}
+
+
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 80px;
+background:rgba(0,0,0,0.3);
+backdrop-filter:blur(8px);
+position:fixed;
+width:100%;
+z-index:1000;
+}
+
+nav h2{
+font-weight:700;
+letter-spacing:2px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:35px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#d0e4f2;
+font-weight:500;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:white;
+}
+
+
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(5,20,35,0.75),rgba(5,20,35,0.85)),
+url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21') center/cover no-repeat;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 20px;
+}
+
+.hero img{
+width:120px;
+margin-bottom:25px;
+}
+
+.hero h1{
+font-size:48px;
+font-weight:700;
+max-width:900px;
+margin-bottom:25px;
+}
+
+.hero p{
+max-width:700px;
+opacity:0.85;
+}
+
+.hero button{
+margin-top:30px;
+padding:12px 30px;
+border:none;
+border-radius:30px;
+font-weight:600;
+background:#1e88e5;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.hero button:hover{
+background:#1565c0;
+}
+
+
+
+.section{
+padding:100px 80px;
+}
+
+.section h2{
+text-align:center;
+font-size:36px;
+margin-bottom:60px;
+}
+
+
+
+.card-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:25px;
+border-radius:18px;
+backdrop-filter:blur(10px);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+background:rgba(255,255,255,0.08);
+}
+
+.card img{
+width:100%;
+border-radius:12px;
+margin-bottom:20px;
+}
+
+.card p{
+font-size:14px;
+opacity:0.9;
+}
+
+
+
+.content-block{
+max-width:1100px;
+margin:auto;
+background:rgba(255,255,255,0.05);
+padding:50px;
+border-radius:20px;
+backdrop-filter:blur(12px);
+}
+
+.content-block h3{
+margin-top:35px;
+margin-bottom:15px;
+font-weight:600;
+}
+
+.content-block ul,
+.content-block ol{
+margin-left:20px;
+opacity:0.9;
+}
+
+
+
+footer{
+text-align:center;
+padding:25px;
+background:#081520;
+font-size:14px;
+opacity:0.8;
+}
+
+@media(max-width:768px){
+nav{
+padding:20px 30px;
+}
+.section{
+padding:80px 30px;
+}
+.hero h1{
+font-size:32px;
+}
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+<h2>MOS</h2>
+<ul>
+<li><a href="main-page.html">Home</a></li>
+<li><a href="explore.html" onclick="goToAbout()">About</a></li>
+<li><a href="detaction.html" >Detection</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<img src="https://i.ibb.co/67nY5Fz7/Chat-GPT-Image-Jan-23-2026-12-04-05-AM.png">
+<h1>Marine Oil Spill Prevention Initiative</h1>
+<p>A single oil spill can poison thousands of lives beneath the waves, disrupting fragile marine ecosystems.</p>
+<button><a href="explore.html">Explore Research</a></button>
+</section>
+
+<section class="section">
+<h2>Major Oil Spill Impacts</h2>
+
+<div class="card-grid">
+
+<div class="card">
+<img src="https://somalimagazine.so/wp-content/uploads/2023/11/Nigeria-New-Oil-Spill-Raises-Concerns-About-Environmental-Impact-2.png">
+<p>In the BP Oil Spill, more than 200 million gallons of crude oil was pumped into the Gulf of Mexico for 87 days, making it the biggest oil spill in U.S. history.</p>
+</div>
+
+<div class="card">
+<img src="https://www.icecleaning.co.uk/media/images/uploaded/inline/types-of-oil-spills.1710933885.jpg">
+<p>16,000 total miles of coastline have been affected, including Texas, Louisiana, Mississippi, Alabama, and Florida.</p>
+</div>
+
+<div class="card">
+<img src="https://somalimagazine.so/wp-content/uploads/2023/11/Nigeria-New-Oil-Spill-Raises-Concerns-About-Environmental-Impact-1.png">
+<p>BP is responsible for close to $40 billion in fines, cleanup costs, and settlements due to the 2010 oil spill.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Understanding Oil Spills</h2>
+
+<div class="content-block">
+
+<h3>What are Oil Spills?</h3>
+<ul>
+<li>An oil spill is the release of liquid petroleum into oceans or rivers.</li>
+<li>Oil blocks sunlight and oxygen, damaging marine life.</li>
+<li>Environmental recovery can take decades.</li>
+</ul>
+
+<h3>Where Do Oil Spills Come From?</h3>
+<ol>
+<li>Oil Tanker Accidents</li>
+<li>Offshore Oil Drilling Failures</li>
+<li>Pipeline Leaks</li>
+<li>Human Errors & Illegal Dumping</li>
+</ol>
+
+</div>
+
+</section>
+
+<footer>
+© 2025 Marine Oil Spill Research | All Rights Reserved
+</footer>
+<script src="main-page.js"></script>
+</body>
+</html>

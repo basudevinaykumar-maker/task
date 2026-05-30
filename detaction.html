@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Oil Spill Detection</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>🛰 Satellite Oil Spill Analysis System</h1>
+    <div class="status">● SYSTEM ACTIVE</div>
+</div>
+
+<div class="container">
+
+    <input type="file" id="upload">
+
+    <div class="main-layout">
+
+        <div class="canvas-section">
+            <div>
+                <h3>Original</h3>
+                <canvas id="originalCanvas"></canvas>
+            </div>
+
+            <div>
+                <h3>Detection</h3>
+                <canvas id="oilCanvas"></canvas>
+            </div>
+        </div>
+
+        <div class="analytics">
+            <div class="stat">
+                <h3>Oil Coverage</h3>
+                <p id="oilPercent">0%</p>
+            </div>
+
+            <div class="stat">
+                <h3>Regions Detected</h3>
+                <p id="regionCount">0</p>
+            </div>
+            <div class="analytics">
+   
+
+</div>
+
+<div class="alert-button">
+    <a class="sms-btn" href="sms:+911234567890?body=Alert%20-%20potential%20oil%20spill%20detected.%20Please%20investigate%20immediately.">
+        Send SMS to Authority
+    </a>
+</div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="final (1).js"></script>
+</body>
+</html>
